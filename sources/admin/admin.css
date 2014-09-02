@@ -1,0 +1,206 @@
+body {
+	margin : 0em 5%;
+	
+	padding : 0px 0px 0px 0px;
+	
+	font-family : Verdana, Arial, Helevetica, sans-serif;
+	font-size : 0.8em;
+	
+	color : #000000;
+	
+	background : #FFFFFF;
+}
+
+/* Main */
+#main {
+	clear : left;
+	
+	margin : 0px 0px 1px 0px;
+	
+	padding : 0px 0px 1px 0px;
+	
+	border-width : 0px 1px 1px 1px;
+	border-style : solid;
+	border-color : #999999;
+	
+	color : #000000;
+	
+	background : #FFFFFF;
+}
+
+body.popup #main {
+	border-width : 1px;
+}
+
+/* ONGLETS
+-------------------------------------------------------- */
+#header {
+	float : left;
+	
+	width : 100%;
+	
+	line-height : normal;
+	
+	font-size : 0.8em;
+
+	background-repeat : repeat-x;
+	background-position : 0px 100%;
+}
+
+#header ul {
+	margin : 0px 0px 0px 0px;
+	
+	padding : 0px 0px 0px 0px;
+	
+	list-style : none;
+}
+
+#header li {
+	float : left;
+	
+	margin : 0px -1px 0px 0px;
+	
+	padding : 0px 0px 0px 25px;
+	padding : 0px 0px 0px 0px;
+	
+	background-image : url(img/onglet.png);
+	
+	background-repeat : no-repeat;
+	background-position : 0px 0px;
+}
+
+#header img {
+	float : left;
+	
+	display : block;
+	
+	margin : 7px 2px 5px 8px;
+	
+	border-width : 0px;
+}
+
+#header a {
+	float : left;
+	
+	display : block;
+	
+	padding : 10px 10px 6px 3px;
+	
+	font-family : Arial,Helvetica,sans-serif;
+	font-weight : bold;
+	
+	text-decoration : none;
+	
+	color : #000;
+	
+	background-image : url(img/onglet_right.png);
+	background-repeat : no-repeat;
+	background-position : 100% 0px;
+}
+
+#header li.actif, #header li.actif:hover {
+	background-position : 0px -110px;
+}
+
+#header li.actif a, #header li.actif:hover a {
+	padding-bottom : 6px;
+	
+	color : #FFF;
+	
+	background-position : 100% -110px;
+}
+
+#header li:hover {
+	background-position : 0px -220px;
+}
+
+#header li:hover a {
+	background-position : 100% -220px;
+}
+
+#menuNewsletter {
+	background-image : url(img/onglet_newsletter.png);
+}
+
+#menuSubscriber {
+	background-image : url(img/onglet_subscriber.png);
+}
+
+#menuCompose  {
+	background-image : url(img/onglet_compose.png);
+}
+
+#menuEnvois  {
+	
+}
+
+#menuLettres  {
+	background-image : url(img/onglet.png);
+}
+
+#menuArchive {
+	background-image : url(img/onglet_archive.png);
+}
+
+#menuConfig {
+	background-image : url(img/onglet_config.png);
+}
+
+#menuLogout {
+	background-image : url(img/onglet_logout.png);
+}
+
+#pmnl_version {
+	clear : left;
+	
+	padding-bottom : 1em;
+	
+	text-align : right;
+	
+	font-family : Arial,Helevetica,sans-serif;
+	font-weight : bold;
+	font-size : 0.8em;
+
+	color : #000;
+}
+
+#submenu {
+	display : block;
+	
+	position : relative;
+	
+	clear : left;
+	
+	padding : 0.5em 1em 0.5em 1em;
+	
+	margin : 0;
+	
+	border : 0px;
+	
+	color : #FFF;
+	
+	background : #7b859c;
+}
+
+#submenu li {
+	display : block;
+
+	float : left;
+	
+	height : 2em;
+	
+	vertical-align : center;
+
+	list-style : none;
+}
+
+.newsletter-list{ 
+	padding : 0px;
+	
+	margin : 0px;
+	
+	border : 0px solid #ccc;
+	border-bottom : 1px;
+	
+	background : #7b859c;
+}

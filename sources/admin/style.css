@@ -1,0 +1,136 @@
+/************************/
+/* base styles          */
+/************************/
+body,p,span,div,font,li,ul,ol,dt,dd,dl,form,blockquote,a,tr,td,th,table,h1,h2,h3,h4,h5,b,i,input,textarea
+   {
+   font-family: helvetica,Arial,sans-serif;
+   font-size: 11pt;
+   }
+
+B{ font-size: 10pt; }
+
+H1 { font-size: 18pt; }
+H2 { font-size: 14pt; }
+H3 { font-size: 12pt; }
+H4, H5, H6, H7 { font-size: 10pt; }
+
+dt { font-weight: bold; }
+
+a.hidden:link { text-decoration:none; }
+a.hidden:visited {  text-decoration:none; }
+a.hidden:active { text-decoration: none; }
+a.hidden:hover { text-decoration: none; }
+
+a:link { color: #0044cc; text-decoration:none; font-size: 10pt; }
+a:visited { color: #0033bb; text-decoration:none; font-size: 10pt;}
+a:active { color: #000000; text-decoration: underline;font-size: 10pt; }
+a:hover { color: #0066ff; text-decoration: underline; font-size: 10pt;}
+
+
+.titre {
+font-size: 12pt;
+font-weight: bold;
+text-decoration: underline;
+color: #f7b930;
+;
+}
+
+.titreSection {
+   font-size: 11pt;
+ font-weight: bold;
+ color: #336699;
+ text-decoration: none;
+}
+
+
+.titreNews {
+   font-size: 10pt;
+ font-weight: bold;
+ color: #336699;
+ text-decoration: none;
+}
+
+.dateNews {
+ font-size: 10pt;
+  color: #336699;
+ text-decoration: none;
+}
+
+.corpsNews {
+font-size: 10pt;
+  color: #414141;
+ text-decoration: none;
+}
+
+
+a.file{
+ font-size: 10pt;
+ font-style: normal ;
+ font-weight: bold;
+ color: #6A839C;
+;
+}
+
+
+
+.credit {
+ font-size: x-small;
+ font-style: normal;
+ font-weight: bold;
+ color: #f7be32;
+;
+}
+
+.changelogheader {
+ font-size: medium;
+ font-style: normal;
+ font-weight: bold;
+ color: #6a839c;
+;
+}
+
+.changelogentry {
+ font-size: small;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: bold;
+ color: #414141;
+;
+}
+
+.report {
+font-size: 10pt;
+  color: #414141;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.cote {
+background-image: url(img/cote.gif);
+}
+
+.error { 
+	font-family: Helvetica, Verdana; 
+	font-size: 13px; color: #FFFFFF; 
+	font-weight: bold; background: #ED1015; 
+}
+
+.success { 
+	font-family: Helvetica, Verdana; 
+	font-size: 13px; color: #FFFFFF; 
+	font-weight: bold; background: #28d31f; 
+}
+
+.test { 
+	font-family: Helvetica, Verdana; 
+	font-size: 13px; color: #FFFFFF; 
+	font-weight: bold; background: #F7B930;
+}
+
+.info {
+	 font-family: Helvetica, Verdana; 
+	font-size: 13px; color: #FFFFFF; 
+	font-weight: bold; 
+	background: #286C9D;
+}
+

@@ -1,0 +1,89 @@
+29/05/2005   0.8 beta4		* Mail charset is now configurable
+                                * News subscription form
+				* Bugfix tickets #61,#64,#53
+
+19/03/2005   0.8 beta3		* Some work on xhtml code validity (not perfect).
+                      		* the usual Charset joke again and again.
+                      		* Preliminary online.net spectific email() php function support.
+
+13/02/2005   0.8 beta2		* Mainly a 'PHP config' oriented beta :
+                      			- register_global = Off support
+                      			- error_reporting  =  E_ALL, 
+                      			- open_basedir restriction handling ...
+                             	* HTML preview in message composing
+  			     	* Bugfix, Bugfix, Bugfix
+ 			     	* New translations.
+
+19/01/2005   0.8 beta1	     New admin interface
+	     		     UTF-8 support
+			     Archives interface
+			     Preliminary log support
+                             Much more ... :)
+
+03/09/2002   v0.7beta1	     Brand new version
+	                     Multiple newsletter support
+                             SMTP support
+                             DB Layer
+
+01/06/2002   v0.6.10	     
+
+27/05/2002   v0.6.9	     Fixing a bug in text file importation.
+
+22/05/2002   v0.6.8b	     0.6.8 was broken. Fixing a bug in sending process.
+
+21/05/2002   v0.6.8	     "Security" fix, using hash to identify users
+			     Now using php extension
+
+11/05/2002   v0.6.7	     Security Fix in admin area 
+			     Security hole causes by cookie.			     
+
+26/01/2002   v0.6.6	     New Year Release
+			     New installation process.
+			     Sending log file.
+			     Bugfixes (again and again)
+
+
+	     v0.6.53	     Bugfix + Slovak lang-file (thanks to Fedor "fi0dor" Tirsel)
+
+
+08/11/2001   v0.6.52	     BugFix Release + New lang-file
+22/04/2001   v0.6.51         Bugfix dans le fichier admin.php et dans la config
+13/02/2001   v0.6.5	     Nouvelle config
+			     Export
+			     Bugfixes
+			     Envoi fragmenté
+
+
+??/??/??	v0.6.0
+
+
+14/11/2000	v0.59(v0.6beta) Passage aux classes.
+				Correction de bugs pour l'envoi en html.
+				Interface de configuration.
+				Importation d'email à partir d'un fichier texte.
+				Des bugfixes par milliers...
+				De belles icones
+				Support de l'anglais et du francais.
+	     
+13/10/2000	v0.5.2		Ajout de la protection mot de passe de l'administration.
+				(merci à logon pour le code)	     
+08/10/2000	v0.5.1		Correction d'un bug dans l'envoi de message en format texte.
+24/09/2000	v0.5		Changement dans la numérotation.
+				Correction de très (trop) nombreux bugs.
+				L'envoi en html doit fonctionner maintenant.
+				Apercu avant envoi des messages.
+				Logs des messages envoyés.
+				Nouveaux messages dans la zone d'administration. 
+				Le flush de la table temp se fait automatiquement.
+				Nouveau logo (cool :-)
+				
+27/07/2000	v0.0.4		version unifiée pour online, nexen et les autres FAI.
+				Fonctionne maintenant comme les vraies newsletter : mail de validation d'abonnement.
+				Fonction send_mail
+				Verification du format des adresses rentrées dans le formulaire.
+
+19/07/2000	v0.0.3 nx	version adaptée à la fonction mail de nexen.
+19/07/2000	v0.03		correction de bugs: ajout de stripslashes.
+		v0.0.2a		correction de bug / message d'erreur
+		v0.0.2		console d'administration permet la suppression des utilisateurs.		
+05/06/2000	v0.0.1		premiere release publique.
